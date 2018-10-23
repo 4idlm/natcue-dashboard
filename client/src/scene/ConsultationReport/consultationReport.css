@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    width: 5px; 
+}
+::-webkit-scrollbar-thumb {
+    background: #DCDCDC
+}
+
+.button-style{  
+    text-decoration: unset !important;
+    background-color: #e9ecef;
+    border: none;
+    color: #4b4b4b;
+    border-radius: 4px;
+    width: 150px;
+    height: 2.50rem;
+    cursor: pointer;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.consultationModal .ant-table-thead > tr > th,
+.consultationModal .ant-table-tbody > tr > td {
+    word-break: break-word; 
+    width: 100px;
+    padding: 15px 0px 15px 10px !important;
+    height: 80px !important;
+}
+
+.consultationModal tr.ant-table-row td:nth-child(6) {
+    text-transform: lowercase;
+}
+
+.consultationModal tr.ant-table-row td:nth-child(1) { 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #1890ff;  
+}
+
+.doctorlist{
+    height: 401px; 
+    overflow-y: scroll
+}

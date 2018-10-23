@@ -1,0 +1,196 @@
+
+label.switch.status:after {
+  content: "Off";
+  position: absolute;
+  right: 60px;
+  top: 6px;
+}
+label.switch.status:before {
+  content: "On";
+  position: absolute;
+  right: -26px;
+  top: 5px;
+}
+.row{
+  margin: 0;
+}
+      .avliable-tym{
+        width: 70px;
+        border-radius: 3px;
+        border: 1px solid #e0e0e4;
+        padding: 5px 0;
+        display: inline-block;
+        text-align: center;
+        color: #28328c;
+        cursor: pointer;
+    }
+    span.slider.on-btn::before{
+      height: 20px;
+    width: 19px;
+    left: 4px;
+    bottom: 5px;
+      border-radius: 50%;
+    }
+.on-btn{
+  border-radius: 50px;
+
+}
+    .flex{
+        display:flex;
+        justify-content: center;
+        align-self: center;
+        border: none;
+    }
+
+    .ant-modal-footer {
+        display: none;
+    }
+
+   li a.active.show{
+
+        color: #fff;
+        text-decoration: none;
+    background-color: #212529;
+    border-color: #32383e;
+    }
+    .nav-tabs {
+        padding-bottom: 9px;
+    }
+
+.p-10{
+    padding: 10px;
+    color: #000;
+    font-weight: 500;
+}
+.p-t-20{
+padding-top: 20px;
+}
+.m-20{
+margin-top: 20px;
+ 
+}
+.update-btn{
+background: #fff;
+ cursor: pointer;
+padding: 5px 25px;
+color: #212529;
+    border:1px solid #32383e;
+}
+.update-btn:hover{
+  background: #212529;
+  color: #fff;
+  border: 1px solid #fff;
+
+}
+
+.ant-modal-content {
+   
+    border-radius: 0px;
+}
+
+.DayPickerInput input {
+    
+    text-align: center;
+    background:#fff;
+    color: #4b4b4b;
+     width: unset;
+    height:unset;
+   border: 1px solid;
+    font-size: unset;
+    font-weight:unset;
+    
+    cursor: pointer;
+}
+
+.pr-34
+{
+
+  padding-right: 34px;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px
+  }
+  label.switch.status{
+    width: 53px;
+    height: 30px;
+
+  }
+  .switch input {display:none;}
+  
+  .sliders {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    
+    right: 0;
+    bottom: 0;
+    color:#fff;
+    background-color: #008CBA  ;
+    -webkit-transition: .4s;
+    transition: .4s;
+    left: -4px;
+    
+  }
+  .test{
+    background-color: #acb1b3;;  ;
+    color:#fff;
+  }
+  .bg-color-grey{
+    
+    color: #acb1b3;;
+  }
+
+  .bg-color-red{
+   
+    color: red;
+  }
+.time-slot{
+  font-size: 15px;
+  font-weight: 500;
+}
+  .bg-color-blue{
+   
+    color: #008CBA  ;
+  }
+  .test2{
+    background-color:red;
+    cursor:no-drop;
+  }
+  .sliders:before {
+    position: absolute;
+    content: "";
+    
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+/*   
+   input:checked + .sliders {
+    background-color:#C3272B!important;
+    color: #fff;
+  }
+   input:checked + .test {
+    background-color:#ccc!important;
+    color: #28328c;
+  }  */
+/*   
+  input:focus + .sliders {
+    box-shadow: 0 0 1px  #C3272B;
+  } */
+  
+  input:checked + .sliders:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+   
+.wholeday{
+  justify-content: flex-end;
+    align-items: center;
+    display: flex;
+
+}

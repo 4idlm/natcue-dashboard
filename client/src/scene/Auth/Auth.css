@@ -1,0 +1,11 @@
+.auth-background {
+    height: 100vh;
+}
+
+.container-main { 
+    padding-top: 15vh;
+}
+
+label {
+    margin: 10px 0 !important
+}

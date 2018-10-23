@@ -1,0 +1,25 @@
+.bg-color-gray{
+    background: #dee2e6;
+}
+.field-p {
+    font-weight: 600;
+    color: #000;
+}
+
+ 
+label.icons-btn{
+    width: 150px;
+    padding: 8px;
+    background: #343a40; 
+    display: table;
+    color: #fff;
+     }
+      
+     .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: none;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }

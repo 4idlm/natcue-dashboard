@@ -1,0 +1,8 @@
+.modal-backdrop {
+    background-color: unset !important;
+    z-index: -999999 !important;
+}
+
+label{
+    margin: 10px 0;
+}

@@ -1,0 +1,21 @@
+.ant-row.ant-form-item {
+    width: 100%;
+}
+
+.ant-form-item-control-wrapper {
+    width: 100%;
+}
+.scheduleModal{
+    width: 800px !important;
+}
+ul.doctordropwon {
+    list-style: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.14901960784313725);
+}
+
+ul.doctordropwon li:last-child {
+    color: #7de77d;
+}
+.tabledoctorlist{
+    padding-left: 10px
+}

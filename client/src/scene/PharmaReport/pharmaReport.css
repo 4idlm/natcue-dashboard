@@ -1,0 +1,6 @@
+pharmaModal .ant-table-thead > tr > th,
+pharmaModal .ant-table-tbody > tr > td {
+    word-break: break-word; 
+    padding: 15px 0px 0 10px !important;
+    height: 50px !important;
+} 
